@@ -1,0 +1,210 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Credit Card Attrition</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo"><strong>Data Analyst Portfolio</strong> <span>by Bejoseholo</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+				<nav id="menu">
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="#footer">Contact</a></li>
+						 <div class="dropup">
+							<button class="dropbtn">Portfolio Projects</button>
+							  <div class="dropup-content">
+									<a href="python.html">Python</a>
+									<a href="sql.html">SQL</a>
+									<a href="excel.html">Excel</a>
+									<a href="tableau.html">Tableau</a>
+									<a href="powerbi.html">Power BI</a>
+							</div>
+						 </div>	
+					</ul>	 						
+				</nav>
+
+
+				<!-- Main -->
+					<div id="main" class="alt">
+						
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h1>Credit Card Attrition</h1>
+									</header>
+									<!--<span class="image main"><img src="images/pic11.jpg" alt="" /></span> -->
+									<h2>Overview</h2>
+									<p>Our bank has recently launched a range of premium credit card offerings, encompassing the Blue, Silver, Gold, and Platinum tiers. However, we have observed a notable uptick in customer attrition across these products in recent months. It is imperative for us to delve into the underlying factors driving this attrition, identify the customer segments most affected, and devise strategic measures to mitigate this trend effectively</p>
+
+									<h2>Project Objective</h2>
+									<a href="https://public.tableau.com/app/profile/bejoseholo.aikhomun/viz/UnderstandingCreditCardAttritionFactorsInfluencingCustomerChurn/CreditCardAttritionAnalysis" class="button" target="_blank">Our Project</a>
+									<p></p>
+
+									<h2>Key Findings </h2>
+									<img src="img/Screenshot_3.png" alt="">
+									<h2>Analysis</h2>
+									<ul>
+										<li>During the comparison of the Total Transaction Amount and Transaction Count, three distinctive clusters were observed.</li>
+										<li>The average transaction count across our entire customer base is 65.</li>
+										<li>Within these clusters, an initial cluster was identified where customers spend below £5,000, and this cluster has the highest number of attrited customers.</li>
+										<li>Investigation into whether these clusters were formed by credit limits was conducted, utilizing shares to evaluate various credit limits.</li>
+										<li>Observation indicates that these clusters are not created by credit limits, as there is a mix of all credit limits in every cluster.</li>
+									</ul>
+									<h2>Inference</h2>
+									<ul>
+										<li>The presence of three distinctive clusters suggests varying spending patterns among customers.</li>
+										<li>The cluster with transactions below £5,000 and the highest number of attrited customers indicates a potential correlation between lower spending levels and attrition.</li>
+										<li>The analysis indicates that credit limits alone do not explain the formation of these clusters, implying that other factors contribute to customer behavior and attrition risk.</li>
+										<li>Customers with transaction counts below the average and monthly spending below £5,000 are identified as a high-risk group for attrition, highlighting the importance of targeted retention strategies for this segment.</li>
+									</ul>
+									<h2>Recommendation</h2>
+									<ol>
+										<li><b>Re Engagement Strategies for 40-60+ Age Range:</b> 
+											<ul>
+												<li>Implement targeted reengagement strategies for customers aged 40-60+ who exhibit prolonged periods of inactivity.</li>
+												<li>Develop personalized promotions, loyalty programs, or special offers tailored to their preferences and spending habits to encourage renewed engagement.
+													</li>
+											</ul>
+										</li>
+										<li>
+											<b>Segment-Specific Retention Strategies for High-Risk Groups:
+											</b>
+											<ul>
+												<li>Develop targeted retention strategies tailored to customers with transaction counts below the average and monthly spending below £5,000.
+												</li>
+												<li>Implement personalized initiatives to enhance engagement and loyalty among this high-risk group for attrition.</li>
+											</ul>
+										</li>
+										<li>
+											<b>Transition Period Monitoring (Q4 to Q1):</b>
+											<ul>
+												<li>Monitor spending trends closely during the transition from Q4 to Q1 and adjust marketing strategies accordingly.
+												</li>
+												<li>Consider offering post-festive season promotions or incentives to sustain customer engagement and spending momentum into the new year.
+												</li>
+											</ul>
+										</li>
+										<li>
+											<b>Personalized Retention Initiatives Based on Relationship Counts:</b>
+											<ul>
+												<li>Develop personalized retention initiatives based on relationship counts to enhance customer engagement and loyalty.
+												</li>
+												<li>Implement targeted promotions or rewards programs tailored to the specific needs and preferences of customers with varying relationship counts.</li>
+											</ul>
+										</li>
+									</ol>
+									<p><b>These recommendations are designed to leverage identified patterns and correlations to formulate targeted strategies for customer retention and engagement, addressing specific needs and behaviors observed within the customer base.
+									</b></p>
+
+								</div>
+							</section>
+                        
+					</div>
+
+				<!-- Contact -->
+					<!--<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">information@untitled.tld</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>(000) 000-0000 x12387</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Address</h3>
+										<span>1234 Somewhere Road #5432<br />
+										Nashville, TN 00000<br />
+										United States of America</span>
+									</div>
+								</section>
+							</section>-->
+						</div>
+					</section>
+
+				<!-- Footer -->
+				<section class="split" style="padding: 0 15px;">
+					<section>
+						<h4>Contact Information</h4>															
+					</section>
+				</section>
+			</div>
+									<!-- Footer -->
+									<footer id="footer">
+										<div class="inner" style="padding: 0 15px;">
+											<ul class="icons">
+												<li><a href="mailto:bejoseholo.data@gmail.com" target="_blank" class="icon solid alt fa-envelope"><span class="label">Twitter</span></a></li>
+												<li><a href="https://github.com/bejoseholo" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="https://www.linkedin.com/in/bejoseholo-aikhomu/" target="_blank" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</div>
+									</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
